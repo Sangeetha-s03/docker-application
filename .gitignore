@@ -1,1 +1,18 @@
-sample gitignore goes here
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+
+# NiceGUI storage
+.nicegui/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
